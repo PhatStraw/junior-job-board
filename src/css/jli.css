@@ -1,7 +1,11 @@
+/* job.js */
 .jobCard {
-    width: 100%;
+    width: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto ;
+    padding-bottom: 1rem;
 }
