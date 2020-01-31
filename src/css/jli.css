@@ -3,9 +3,22 @@
     width: 50vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: auto ;
+    margin: 1rem auto 1rem auto ;
     padding-bottom: 1rem;
+}
+
+/* Pagination */
+.pagUl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.paginationLink {
+    padding: 1rem;
 }

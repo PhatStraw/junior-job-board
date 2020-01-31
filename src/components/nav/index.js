@@ -6,7 +6,7 @@ import Home from '../home/'
 
 export default function Nav(){
     return(
-        <nav>
+        <nav className='topNav'>
             <div className='NavLogo'>
                 <a>
                     <img src={Logo} height='50vh'/>
